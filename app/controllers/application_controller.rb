@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
 
     def index
-        render: "helloworld!"
+        render html: "helloworld!"
         
     end
 
